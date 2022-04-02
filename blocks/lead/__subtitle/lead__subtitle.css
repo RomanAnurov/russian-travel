@@ -1,0 +1,51 @@
+.lead__subtitle {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  margin: 0 320px 64px;
+
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__subtitle {
+    margin-left: 192px;
+    margin-right: 192px;
+    margin-bottom: 56px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__subtitle {
+    margin-left: 64px;
+    margin-right: 64px;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .lead__subtitle {
+    font-size: 26px;
+    line-height: 24px;
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+
+@media screen and (max-width: 477px) {
+  .lead__subtitle {
+    font-size: 20px;
+    line-height: 22px;
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__subtitle {
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

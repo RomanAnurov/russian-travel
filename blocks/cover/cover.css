@@ -1,0 +1,32 @@
+.cover {
+  display: flex;
+  justify-content: center;
+  padding: 92px 48px;
+  box-sizing: border-box;
+
+
+}
+
+@media screen and (max-width:1024px) {
+  .cover {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+}
+
+@media screen and (max-width:768px) {
+  .cover {
+    padding-top: 90px;
+    padding-bottom: 88px;
+  }
+
+}
+
+@media screen and (max-width:320px) {
+  .cover {
+    padding-top: 66px;
+    padding-bottom: 64px;
+  }
+
+}

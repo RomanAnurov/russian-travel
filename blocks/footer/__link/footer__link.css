@@ -1,0 +1,32 @@
+.footer__link {
+  font-size: 16px;
+  line-height: 1.125;
+  text-decoration: none;
+  font-weight: 400;
+  margin-right: 18px;
+  
+
+}
+.footer__link:last-child {
+  margin-right: 0;
+}
+@media screen and (max-width:450px){
+  .footer__link {
+    font-size: 24px;
+    margin-right: 0;
+    margin-bottom: 32px;
+  }
+  .footer__link:last-child {
+    margin-bottom: 48px;
+  }
+}
+@media screen and (max-width:320px){
+  .footer__link {
+    font-size: 24px;
+    margin-right: 0;
+    margin-bottom: 32px;
+  }
+  .footer__link:last-child {
+    margin-bottom: 48px;
+  }
+}

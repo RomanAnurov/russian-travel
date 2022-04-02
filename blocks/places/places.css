@@ -1,0 +1,28 @@
+.places {
+  margin: 0;
+  padding: 0 calc(100%/(1280/148));
+  box-sizing: border-box;
+
+
+}
+
+@media screen and (max-width:1024px) {
+  .places {
+    padding: 0 calc(100%/(1024/48));
+  }
+
+}
+
+@media screen and (max-width:768px) {
+  .places {
+    padding: 0 calc(100%/(768/24));
+  }
+
+}
+
+@media screen and (max-width:320px) {
+  .places {
+    padding: 0 calc(100%/(320/16));
+  }
+
+}
