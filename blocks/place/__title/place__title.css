@@ -2,8 +2,7 @@
   font-size: 72px;
   font-weight: 900;
   line-height: 1.06;
-  margin: 0
-
+  margin: 0;
 }
 
 @media screen and (max-width:768px) {
@@ -11,7 +10,8 @@
     font-size: 42px;
   }
 }
-@media screen and (max-width:768px) {
+
+@media screen and (max-width:320px) {
   .place__title {
     font-size: 32px;
   }
