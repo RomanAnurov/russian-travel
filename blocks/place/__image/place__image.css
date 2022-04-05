@@ -4,16 +4,11 @@
   width: 100%;
   box-sizing: border-box;
   grid-row: 2/3;
-  
    
-  
 }
 @media screen and (max-width:320px) {
   .place__image {
-    object-fit: cover;
     max-width: 320px;
-    width: 100%;
-    box-sizing: border-box;
     
   } 
 }

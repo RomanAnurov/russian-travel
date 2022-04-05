@@ -14,10 +14,4 @@
   }
   
 }
-@media screen and (max-width:320px) {
-  .footer__links {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  
-}
+

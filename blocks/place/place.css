@@ -34,11 +34,5 @@
     
 }
 }
-@media screen and (max-width:320px) {
-  .place {
-    grid-template-columns: 1fr;
-    padding-top: 50px;
-    row-gap: 32px;
+
     
-}
-}
